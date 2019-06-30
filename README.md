@@ -13,12 +13,12 @@ This is my fav place app
 # livepersondemo
 ##  Twitter tweet search with nodejs backend
 
-**Installing**
+## Installing
 Install tools / programs below:
 1. [NodeJs](https://nodejs.org/en/download/) v11.15.0
 2. [PM2](https://www.npmjs.com/package/pm2) v2.0.15
 
-**Start an application**
+## Start an application**
 1. Go to the root folder. 
 ```
 npm install
@@ -45,7 +45,7 @@ To get the Tweeter result: http://localhost:8080/api/getEntries
 
 
 
-**Unit testing**
+## Unit testing**
 1. Go to the root folder and use the command below:
 ```
 npm test
