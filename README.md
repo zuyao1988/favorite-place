@@ -11,7 +11,14 @@ This is my fav place app
 
 
 # livepersondemo
-######  Twitter tweets search with NodeJS-Express back-end and Angular front-end
+## What is this project about?
+This program will search Twitter tweets via hashtag #liveperson.
+
+Programming stacks of this project are:
+- Front-end: Angular
+- Back-end: NodeJS, Express
+- Database: SQLite3
+- Twitter standard API
 
 ## Installing
 Install tools / programs below:
