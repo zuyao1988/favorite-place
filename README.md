@@ -19,12 +19,12 @@ Install tools / programs below:
 2. [PM2](https://www.npmjs.com/package/pm2) v2.0.15
 
 
-3. Go to the root folder. 
+3. Copy/clone this project, and run the command below at the root folder. 
 ```
 npm install
 ```
 
-## Start application in PRODUCTION using PM2 + ecosystem.config.js
+## Start application in PRODUCTION using PM2 + ecosystem.config.js (port 5000)
 2.1 If you wish to run pgm in `prod mode` run the command below in the root folder else go to next section.
 ```
 pm2 start ecosystem.config.js --env production
@@ -34,7 +34,7 @@ Main page: http://localhost:5000
 To get the Tweeter result: http://localhost:5000/api/getEntries
 
 
-## Start application in DEV
+## Start application in DEV (port 8080)
 2.2 To run pgm in dev mode, use the command below:
 ```
 node index.js
