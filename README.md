@@ -7,17 +7,9 @@ This is my fav place app
 
 ```
 
-3 Run unit test:
-> npm test
-```
-3.1 Test case:
-a) sqlite insert
-	- fields check
-	- is able to insert
-b) sqlite read
-c) sqlite delete
-d) Twitter API
-```
+
+
+
 # livepersondemo
 ##  Twitter tweet search with nodejs backend
 
@@ -29,13 +21,14 @@ Install tools / programs below:
 2. PM2 2.0.15
 > https://www.npmjs.com/package/pm2
 
+
 ######  //-----  HOW TO START ---------
 Steps to run the program.
 
-1. Go to the main folder. 
+- 1. Go to the root folder. 
 > npm install
 
-2.1 If you wish to run pgm in prod mode, else use 2.2:
+- 2.1 If you wish to run pgm in prod mode, else use 2.2:
 > pm2 start ecosystem.config.js --env production
 
 Available urls:
@@ -45,7 +38,7 @@ Available urls:
 > http://localhost:5000/api/getEntries
 
 
-2.2 Run pgm in dev mode:
+- 2.2 Run pgm in dev mode:
 > node index.js
 
 Available urls:
@@ -55,10 +48,12 @@ Available urls:
 > http://localhost:8080/api/getEntries
 
 
-3 Run unit test:
+######  //-----  Run unit testing ---------
+- 1. Go to the root folder and use the command below:
 > npm test
+
+- 2 Test cases covered:
 ```
-3.1 Test case:
 a) sqlite insert
 	- fields check
 	- is able to insert
