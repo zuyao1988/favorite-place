@@ -24,24 +24,27 @@ Install tools / programs below:
 npm install
 ```
 
-2. If you wish to run pgm in `prod mode`, else goto 3
+2.1 If you wish to run pgm in `prod mode`, else goto 2.2
 ```
 pm2 start ecosystem.config.js --env production
 ```
 
-Available urls:
+###### Available urls:
+
 Main page: http://localhost:5000
 
 To get the Tweeter result: http://localhost:5000/api/getEntries
 
 
-3. Run pgm in dev mode:
+2.2 Run pgm in dev mode:
 ```
 node index.js
 ```
 
-Available urls:
+###### Available urls:
+
 Main page: http://localhost:8080
+
 To get the Tweeter result: http://localhost:8080/api/getEntries
 
 
