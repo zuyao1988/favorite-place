@@ -13,33 +13,31 @@ This is my fav place app
 # livepersondemo
 ##  Twitter tweet search with nodejs backend
 
-###### //------ BEFORE START ---------
+###### Installing
 Install tools / programs below:
-1. NodeJs v11.15.0
-> https://nodejs.org/en/download/
+1. [NodeJs](https://nodejs.org/en/download/) v11.15.0
+2. [PM2](https://www.npmjs.com/package/pm2) v2.0.15
 
-2. PM2 2.0.15
-> https://www.npmjs.com/package/pm2
+###### Start an application
+1. Go to the root folder. 
+```
+npm install
+```
 
-
-######  //-----  HOW TO START ---------
-Steps to run the program.
-
-- 1. Go to the root folder. 
-> npm install
-
-- 2.1 If you wish to run pgm in prod mode, else use 2.2:
-> pm2 start ecosystem.config.js --env production
+2. If you wish to run pgm in `prod mode`, else goto 3
+```
+pm2 start ecosystem.config.js --env production
+```
 
 Available urls:
-- Main page: 
-> http://localhost:5000
-- To get the Tweeter result: 
-> http://localhost:5000/api/getEntries
+Main page: http://localhost:5000
+To get the Tweeter result: http://localhost:5000/api/getEntries
 
 
-- 2.2 Run pgm in dev mode:
-> node index.js
+3. Run pgm in dev mode:
+```
+node index.js
+```
 
 Available urls:
 - Main page: 
@@ -48,16 +46,14 @@ Available urls:
 > http://localhost:8080/api/getEntries
 
 
-######  //-----  Run unit testing ---------
-- 1. Go to the root folder and use the command below:
-> npm test
-
-- 2 Test cases covered:
+######  Unit testing
+1. Go to the root folder and use the command below:
 ```
-a) sqlite insert
-	- fields check
-	- is able to insert
-b) sqlite read
-c) sqlite delete
-d) Twitter API
+npm test
 ```
+2. Test cases covered:
+- SQLite table insert
+- SQLite table fields check
+- SQLite table read
+- SQLite table delete
+- Twitter API
