@@ -11,7 +11,7 @@ This is my fav place app
 
 
 # livepersondemo
-######  Twitter tweet search with nodejs backend
+######  Twitter tweets search with NodeJS-Express back-end and Angular front-end
 
 ## Installing
 Install tools / programs below:
