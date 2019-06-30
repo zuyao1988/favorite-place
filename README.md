@@ -29,8 +29,6 @@ npm install
 ```
 pm2 start ecosystem.config.js --env production
 ```
-Available urls:
-
 Main page: http://localhost:5000
 
 To get the Tweeter result: http://localhost:5000/api/getEntries
@@ -41,8 +39,6 @@ To get the Tweeter result: http://localhost:5000/api/getEntries
 ```
 node index.js
 ```
-Available urls:
-
 Main page: http://localhost:8080
 
 To get the Tweeter result: http://localhost:8080/api/getEntries
