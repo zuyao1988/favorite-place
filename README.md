@@ -18,14 +18,14 @@ Install tools / programs below:
 1. [NodeJs](https://nodejs.org/en/download/) v11.15.0
 2. [PM2](https://www.npmjs.com/package/pm2) v2.0.15
 
-## Start an application**
-1. Go to the root folder. 
+
+3. Go to the root folder. 
 ```
 npm install
 ```
 
-
-2.1 If you wish to run pgm in `prod mode`, else goto 2.2
+## Start application in PRODUCTION using PM2 + ecosystem.config.js
+2.1 If you wish to run pgm in `prod mode` run the command below in the root folder else go to next section.
 ```
 pm2 start ecosystem.config.js --env production
 ```
@@ -34,8 +34,8 @@ Main page: http://localhost:5000
 To get the Tweeter result: http://localhost:5000/api/getEntries
 
 
-
-2.2 Run pgm in dev mode:
+## Start application in DEV
+2.2 To run pgm in dev mode, use the command below:
 ```
 node index.js
 ```
